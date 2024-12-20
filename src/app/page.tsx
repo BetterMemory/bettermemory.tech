@@ -2,98 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <footer className="row-start-1 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/docs.svg"
-            alt="File icon"
-            width={24}
-            height={24}
-          />
-          Docs
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/post.svg"
-            alt="Post icon"
-            width={24}
-            height={24}
-          />
-          Blog
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={24}
-            height={24}
-          />
-          Company
-        </a>
-      
-      </footer>
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          // className="dark:invert"
-          src="/BetterMemoryLogo-W-F-M-B.png"
-          alt="Next.js logo"
-          width={1024}
-          height={480}
-          // priority
-        />
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+    <div className="h-screen w-screen bg-[#F5F4EF]">
+      <div className="flex flex-col w-full bg-[#F5F4EF] sm:px-[30%] sm:pt-[72px] px-[20%] pt-[48px]">
+        <Image src={"../bm-logo.svg"} alt={"logo"} width={53} height={26}></Image>
         
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://x.com/BetterMemoryLtd"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/x.svg"
-            alt="X icon"
-            width={20}
-            height={20}
-          />
-          X(Twitter)
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/BetterMemory"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/github.svg"
-            alt="Github icon"
-            width={20}
-            height={20}
-          />
-          Github
-        </a>
-      </footer>
+
+        <a className="pt-[48px] text-[16px] font-light text-[#1E1E1D] ">BETTERMEMORY is transforming how we learn and retain knowledge. By harnessing advanced algorithms and neuroscience insights, we create innovative solutions that enhance memory and accelerate learning. Our mission is to empower individuals to reach their full potential, making education more personalized, effective, and engaging for learners today and the visionaries of tomorrow.</a>
+       
+
+      {/* <div className="bg-black w-full h-[2px] my-[24px]"></div> */}
+      <div className="flex flex-row">
+        {/* <a className="font-bold">blog</a> */}
+      </div>
+
+      </div>
     </div>
   );
 }
