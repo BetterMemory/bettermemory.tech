@@ -16,20 +16,28 @@ export const metadata: Metadata = {
   description: "Empowering the Next Generation of Learners.",
 };
 
-export default async function LocaleLayout({
-  children,
-  params: { locale }
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
-  
+export default async function LocaleLayout(
+  props: {
+    children: React.ReactNode;
+    params: Promise<{ locale: string }>;
+  }
+) {
+  const params = await props.params;
+
+  const {
+    locale
+  } = params;
+
+  const {
+    children
+  } = props;
+
   if (!routing.locales.includes(locale as any)) {
     notFound();
   }
-  
+
   const messages = await getMessages();
-  
+
   return (
     <html lang={locale}>
       <body className={`${jetBrainsMono.className} antialiased bg-[#F5F4EF]`}>
