@@ -24,7 +24,6 @@ const Modal: React.FC<ModalProps> = ({
   languages,
   onLanguageSelect
 }) => {
-  const t = useTranslations('Modal');
   // 添加 Esc 鍵監聽
   useEffect(() => {
     const handleEscKey = (event: KeyboardEvent) => {
