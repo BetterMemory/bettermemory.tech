@@ -4,9 +4,14 @@
     "about": " is transforming how we learn and retain knowledge. By harnessing advanced algorithms and neuroscience insights, we create innovative solutions that enhance memory and accelerate learning. Our mission is to empower individuals to reach their full potential, making education more personalized, effective, and engaging for learners today and the visionaries of tomorrow.",
     "about-2": "We’re in the initial phases of development and will be sharing more updates in the near future!",
     "about-text-ltd": "We will register the company in the UK.",
-    "about-text": "Company"
+    "about-text": "company",
+    "modaleCompany":"Company",
+    "BlogAbout": "All research and articles published by BETTERMEMORY.",
+    "StayBlog":"Blog Updates Coming Soon, Please Stay Tuned!"
   },
-    "Modal": {
-    "ModalTitle": "Language"
+  "Modal": {
+    "ModalTitle": "language",
+    "ModalTitle2":"Language",
+    "BlogText": "blog"
   }
 }
