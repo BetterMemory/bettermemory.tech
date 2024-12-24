@@ -23,7 +23,7 @@ export default function Blog() {
           <Image src={"../bm-logo.svg"} alt={"logo"} width={53} height={26}></Image>
         </a>
         <a className="cursor-default pt-[48px] text-[16px] font-normal text-[#1E1E1D] ">{t('BlogAbout')}</a>
-        <Posts title={t('StayBlog')}></Posts>
+        <Posts title={t('StayBlog')} date="22.December 2024" to="blog-updates-coming-soon-please-stay-tuned"></Posts>
 
 
         <div className="bg-black w-full h-[1px] mt-[32px] mb-[12px]" />
