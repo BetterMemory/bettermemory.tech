@@ -17,6 +17,7 @@ export default function Home() {
 
   const languages = [
     { code: 'en', name: 'English' },
+    { code: 'ja', name: '日本語' },
     { code: 'zh', name: '繁體中文' }
   ];
 
@@ -25,6 +26,7 @@ export default function Home() {
     // 将语言代码映射到正确的 locale
     const localeMap: { [key: string]: string } = {
       'zh': 'zh-Hant',
+      'ja': 'ja',
       'en': 'en'
     };
 
