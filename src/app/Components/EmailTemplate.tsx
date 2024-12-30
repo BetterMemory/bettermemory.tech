@@ -13,9 +13,7 @@ import {
 } from "@react-email/components";
 import * as React from "react";
 
-const baseUrl = "bettermemory.tech"
-  ? `https://bettermemory.tech`
-  : "";
+const baseUrl = "https://bettermemory.tech";
 
 export const EmailTemplate = () => (
   <Html>
