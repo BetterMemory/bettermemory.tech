@@ -4,8 +4,9 @@ import Button from "../Components/Button";
 import { useState } from "react";
 import { Resend } from 'resend';
 import { useTranslations } from 'next-intl';
+ 
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend(env.RESEND_API_KEY);
 
 export function Waitlist() {
   const [email, setEmail] = useState('');
