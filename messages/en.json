@@ -7,7 +7,10 @@
     "about-text": "company",
     "modaleCompany":"Company",
     "BlogAbout": "All research and articles published by BETTERMEMORY.",
-    "StayBlog":"Blog Updates Coming Soon, Please Stay Tuned!"
+    "StayBlog":"Blog Updates Coming Soon, Please Stay Tuned!",
+    "InputText": "Type your email...",
+    "Subscribe": "Subscribe",
+    "WaitSubscribe": "Sending..."
   },
   "Modal": {
     "ModalTitle": "language",

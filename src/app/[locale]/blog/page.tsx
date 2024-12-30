@@ -8,7 +8,6 @@ export default function Blog() {
 
   const router = useRouter();
   const t = useTranslations('HomePage');
-  const t2 = useTranslations('Modal');
 
   const handleLogoClick = (e: React.MouseEvent) => {
     e.preventDefault();

@@ -7,7 +7,10 @@
     "about-text": "会社",
     "modaleCompany":"会社",
     "BlogAbout": "BETTERMEMORY によって発表されたすべての研究と記事。",
-    "StayBlog":"ブログの更新が間もなく行われますので、ぜひお待ちください！"
+    "StayBlog":"ブログの更新が間もなく行われますので、ぜひお待ちください！",
+    "InputText": "メールアドレスを入力してください...",
+    "Subscribe": "購読する",
+    "WaitSubscribe": "送信中..."
   },
   "Modal": {
     "ModalTitle": "言語",

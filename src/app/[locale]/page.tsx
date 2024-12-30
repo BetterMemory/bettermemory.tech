@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import { useState } from "react";
 import Modal from "../Components/Modal";
 import { useRouter, useParams } from 'next/navigation';
-// import Waitlist from "../Components/Waitlist";
+import { Waitlist } from "../Components/Waitlist";
 
 
 export default function Home() {
@@ -54,7 +54,7 @@ export default function Home() {
           {t('about-2')}
         </a>
 
-        {/* <Waitlist></Waitlist> */}
+        <Waitlist></Waitlist>
 
 
         <div className="bg-black w-full h-[1px] mt-[32px] mb-[12px]" />

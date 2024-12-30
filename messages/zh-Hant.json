@@ -7,7 +7,10 @@
     "about-text": "公司",
     "modaleCompany":"公司",
     "BlogAbout": "由 BETTERMEMORY 發表的所有研究和文章。",
-    "StayBlog":"博客即將更新，敬請期待！"
+    "StayBlog":"博客即將更新，敬請期待！",
+    "InputText": "輸入您的電子郵件...",
+    "Subscribe": "訂閱",
+    "WaitSubscribe": "正在發送..."
   },
   "Modal": {
     "ModalTitle": "語言",
