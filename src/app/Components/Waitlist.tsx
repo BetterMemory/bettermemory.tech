@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+
 export function Waitlist() {
   const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
