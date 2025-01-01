@@ -5,16 +5,17 @@
     "about-2": "We’re in the initial phases of development and will be sharing more updates in the near future!",
     "about-text-ltd": "We will register the company in the UK.",
     "about-text": "company",
-    "modaleCompany":"Company",
+    "modaleCompany": "Company",
     "BlogAbout": "All research and articles published by BETTERMEMORY.",
-    "StayBlog":"Blog Updates Coming Soon, Please Stay Tuned!",
+    "StayBlog": "Blog Updates Coming Soon, Please Stay Tuned!",
     "InputText": "Type your email...",
     "Subscribe": "Subscribe",
-    "WaitSubscribe": "Sending..."
+    "WaitSubscribe": "Sending...",
+    "SubscribeError": "Failed to send, please check if the email is filled in correctly."
   },
   "Modal": {
     "ModalTitle": "language",
-    "ModalTitle2":"Language",
+    "ModalTitle2": "Language",
     "BlogText": "blog"
   }
 }

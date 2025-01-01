@@ -5,12 +5,13 @@
     "about-2": "我們正處於開發的初始階段，並將在不久的將來分享更多更新！",
     "about-text-ltd": "我們將在英國註冊公司。",
     "about-text": "公司",
-    "modaleCompany":"公司",
+    "modaleCompany": "公司",
     "BlogAbout": "由 BETTERMEMORY 發表的所有研究和文章。",
-    "StayBlog":"博客即將更新，敬請期待！",
+    "StayBlog": "博客即將更新，敬請期待！",
     "InputText": "輸入您的電子郵件...",
     "Subscribe": "訂閱",
-    "WaitSubscribe": "正在發送..."
+    "WaitSubscribe": "正在發送...",
+    "SubscribeError": "發送失敗，請檢查電子郵件是否填寫正確。"
   },
   "Modal": {
     "ModalTitle": "語言",
