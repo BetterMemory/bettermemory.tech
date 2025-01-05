@@ -1,6 +1,5 @@
 import {
   Body,
-  Font,
   Container,
   Head,
   Hr,
@@ -17,47 +16,32 @@ const baseUrl = "https://bettermemory.tech";
 
 export const EmailTemplate = () => (
   <Html>
-    <Head>
-    </Head>
+    <Head></Head>
     <Preview>Subscription Successful!</Preview>
     <Body style={main}>
       <Container style={container}>
         <Section style={box}>
-          <Img
-            src={`${baseUrl}/bm-logo.png`}
-            width="53"
-            height="26"
-            alt="bm"
-          />
+          <Img src={`${baseUrl}/bm-logo.png`} width="53" height="26" alt="bm" />
           <Hr style={hr} />
-          <Text style={paragraph}>
-            Thank you for subscribing.
-          </Text>
-
+          <Text style={paragraph}>Thank you for subscribing.</Text>
 
           <Text style={paragraph}>
-            You will receive our latest updates, including important notifications about each update.
-            For more information, feel free to visit our{" "}
+            You will receive our latest updates, including important
+            notifications about each update. For more information, feel free to
+            visit our{" "}
             <Link style={anchor} href="https://bettermemory.tech/">
               website
             </Link>{" "}
-            or follow us on {" "}
+            or follow us on{" "}
             <Link style={anchor} href="https://x.com/BETTERMEMORYLTD">
               X
             </Link>{" "}
             to stay up-to-date.
           </Text>
 
-          <Text style={paragraph}>
+          <Text style={paragraph}>We appreciate your trust and support.</Text>
 
-            We appreciate your trust and support.
-          </Text>
-
-      <Text style={footer}>
-
-          BETTERMEMORY LTD
-      </Text>
-
+          <Text style={footer}>BETTERMEMORY LTD</Text>
         </Section>
       </Container>
     </Body>
