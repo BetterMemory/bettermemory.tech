@@ -3,7 +3,6 @@
 import Button from "../Components/Button";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import Alert from "./Alert";
 
 export function Waitlist() {
   const [email, setEmail] = useState("");
