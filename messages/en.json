@@ -21,5 +21,9 @@
   "blog-1": {
     "title": "Blog Updates Coming Soon, Please Stay Tuned!",
     "content": "We are about to publish our first blog post, which will be available in multiple languages, including English, Traditional Chinese, Korean, and Japanese. The post will cover our current progress and future plans. Stay tuned!"
+  },
+  "blog-2": {
+    "title": "Watching videos vs. reading, why we choose reading.",
+    "content": ""
   }
 }
