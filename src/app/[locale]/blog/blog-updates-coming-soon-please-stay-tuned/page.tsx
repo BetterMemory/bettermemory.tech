@@ -1,11 +1,9 @@
 "use client";
 import Image from "next/image";
-import { useRouter } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
-import Posts from "@/app/Components/Posts";
+import PostsInfo from "@/app/Components/PostsInfo";
 
 export default function Blog() {
-  const router = useRouter();
   const t3 = useTranslations("blog-1");
 
   return (
@@ -23,10 +21,13 @@ export default function Blog() {
         <a className="pt-[56px] text-[28px] sm:text-[36px] font-bold sm:text-center text-left">
           {t3("title")}
         </a>
-        <a className="pt-[24px] sm:text-center text-left">
-          Published:<span className="pl-[24px]">22.December 2024</span>
-        </a>
-        <a className="pt-[24px]"> {t3("content")}</a>
+        {/* <a className="pt-[24px] sm:text-center text-left">
+          Published:<span className="pl-[24px] text-sm">22.December 2024</span>
+        </a> */}
+
+        <PostsInfo date={t3("date")} author={t3("author")}></PostsInfo>
+
+        <a className="pt-[24px] font-medium"> {t3("content")}</a>
 
         <div className="bg-black w-full h-[1px] mt-[32px] mb-[12px]" />
         <div className="flex flex-row justify-end"></div>
