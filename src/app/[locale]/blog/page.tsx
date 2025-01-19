@@ -6,12 +6,10 @@ import Posts from "@/app/Components/Posts";
 
 export default function Blog() {
   const router = useRouter();
-  const t = useTranslations("HomePage");
 
-  const handleLogoClick = (e: React.MouseEvent) => {
-    e.preventDefault();
-    router.push("/");
-  };
+  const t2 = useTranslations("blog-2");
+  const t1 = useTranslations("blog-1");
+  const t = useTranslations("HomePage");
 
   return (
     <div className="flex h-full selection:bg-black selection:text-white bg-[#F5F4EF] pt-[48px] justify-center">
@@ -28,7 +26,12 @@ export default function Blog() {
           {t("BlogAbout")}
         </a>
         <Posts
-          title={t("StayBlog")}
+          title={t2("title")}
+          date="17.January 2025"
+          to="watching-videos-vs-reading"
+        ></Posts>
+        <Posts
+          title={t1("title")}
           date="22.December 2024"
           to="blog-updates-coming-soon-please-stay-tuned"
         ></Posts>
