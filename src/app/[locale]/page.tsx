@@ -76,13 +76,6 @@ export default function Home() {
         </div>
 
         <Modal
-          isOpen={isTextModalOpen}
-          onClose={() => setIsTextModalOpen(false)}
-          type="text"
-          content={t("about-text-ltd")}
-          title={t("modaleCompany")}
-        />
-        <Modal
           isOpen={isLangModalOpen}
           onClose={() => setIsLangModalOpen(false)}
           type="language"
