@@ -6,6 +6,7 @@ import { useState } from "react";
 import Modal from "../Components/Modal";
 import { useRouter, useParams } from "next/navigation";
 import { Waitlist } from "../Components/Waitlist";
+// import Card from "../Components/Card";
 
 export default function Home() {
   const router = useRouter();
@@ -45,7 +46,8 @@ export default function Home() {
             height={26}
           ></Image>
         </a>
-        <a className="cursor-default pt-[48px] text-[16px] font-normal text-[#1E1E1D]">
+        {/* <Card></Card> */}
+        <a className="cursor-default pt-[32px] text-[16px] font-normal text-[#1E1E1D]">
           <span className="font-semibold">{t("title")}</span>
           {t("about")}
         </a>
