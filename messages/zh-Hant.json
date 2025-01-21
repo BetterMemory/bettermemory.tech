@@ -15,7 +15,8 @@
   "Modal": {
     "ModalTitle": "語言",
     "ModalTitle2": "語言",
-    "BlogText": "部落格"
+    "BlogText": "部落格",
+    "ProductText": "product"
   },
   "blog-1": {
     "title": "博客即將更新，敬請期待！",
