@@ -60,6 +60,13 @@ export default function Home() {
 
         <div className="bg-black w-full h-[1px] mt-[32px] mb-[12px]" />
         <div className="flex flex-row justify-end">
+          {/* <a
+            href={`/${params.locale}/product`}
+            className="m-2 opacity-85 hover:opacity-100 font-normal underline hover:decoration-2"
+          >
+            {t2("ProductText")}
+          </a> */}
+
           <a
             href={`/${params.locale}/blog`}
             className="m-2 opacity-85 hover:opacity-100 font-normal underline hover:decoration-2"
@@ -67,12 +74,12 @@ export default function Home() {
             {t2("BlogText")}
           </a>
 
-          <button
-            className="m-2 opacity-85 hover:opacity-100 font-normal underline hover:decoration-2"
+          <a
+            className="m-2 cursor-pointer opacity-85 hover:opacity-100 font-normal underline hover:decoration-2"
             onClick={() => setIsLangModalOpen(true)}
           >
             {t2("ModalTitle")}
-          </button>
+          </a>
         </div>
 
         <Modal
