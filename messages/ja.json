@@ -15,7 +15,8 @@
   "Modal": {
     "ModalTitle": "言語",
     "ModalTitle2": "言語",
-    "BlogText": "ブログ"
+    "BlogText": "ブログ",
+    "ProductText": "product"
   },
   "blog-1": {
     "title": "ブログの更新が間もなく行われますので、ぜひお待ちください！",
