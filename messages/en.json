@@ -15,7 +15,8 @@
   "Modal": {
     "ModalTitle": "language",
     "ModalTitle2": "Language",
-    "BlogText": "blog"
+    "BlogText": "blog",
+    "ProductText": "product"
   },
   "blog-1": {
     "title": "Blog Updates Coming Soon, Please Stay Tuned!",
