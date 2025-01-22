@@ -8,7 +8,7 @@ interface PostsInfoProps {
 export default function PostsInfo({ date, author }: PostsInfoProps) {
   return (
     <div className="flex flex-col sm:items-center items-start pt-[24px]">
-      <div className="grid opacity-85 hover:opacity-100 sm:grid-cols-[120px_1fr] gap-0.5 text-mono text-sm">
+      <div className="grid opacity-85 sm:grid-cols-[120px_1fr] gap-0.5 text-mono text-sm">
         <div>Published:</div>
         <div>{date}</div>
         <div className="max-sm:mt-2">Author:</div>
