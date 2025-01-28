@@ -23,6 +23,8 @@ export default function Blog() {
         </a>
         <PostsInfo date={t3("date")} author={t3("author")}></PostsInfo>
         <a className="pt-[24px]"> {t3("content")}</a>
+        <a className="pt-[24px]"> {t3("content-2")}</a>
+        <a className="pt-[24px]"> {t3("content-3")}</a>
 
         <div className="bg-black w-full h-[1px] mt-[32px] mb-[12px]" />
         <div className="flex flex-row justify-end"></div>
