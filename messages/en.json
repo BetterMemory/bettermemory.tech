@@ -10,7 +10,8 @@
     "InputText": "Type your email...",
     "Subscribe": "Subscribe",
     "WaitSubscribe": "Sending...",
-    "SubscribeError": "Failed to send, please check if the email is filled in correctly."
+    "SubscribeError": "Failed to send, please check if the email is filled in correctly.",
+    "": ""
   },
   "Modal": {
     "ModalTitle": "language",
