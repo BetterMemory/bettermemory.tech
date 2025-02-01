@@ -11,7 +11,7 @@
     "Subscribe": "Subscribe",
     "WaitSubscribe": "Sending...",
     "SubscribeError": "Failed to send, please check if the email is filled in correctly.",
-    "": ""
+    "NotificationText": "NowLEARN is about to launch. Subscribe to receive the latest official notifications."
   },
   "Modal": {
     "ModalTitle": "language",
