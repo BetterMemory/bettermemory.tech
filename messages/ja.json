@@ -11,7 +11,7 @@
     "Subscribe": "購読する",
     "WaitSubscribe": "送信中...",
     "SubscribeError": "送信に失敗しました。メールアドレスが正しく入力されているか確認してください。",
-    "": ""
+    "NotificationText": "NowLEARNはまもなくリリースされます。最新の公式通知を受け取るために購読してください。"
   },
   "Modal": {
     "ModalTitle": "言語",
