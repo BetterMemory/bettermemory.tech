@@ -10,7 +10,8 @@
     "InputText": "輸入您的電子郵件...",
     "Subscribe": "訂閱",
     "WaitSubscribe": "正在發送...",
-    "SubscribeError": "發送失敗，請檢查電子郵件是否填寫正確。"
+    "SubscribeError": "發送失敗，請檢查電子郵件是否填寫正確。",
+    "": ""
   },
   "Modal": {
     "ModalTitle": "語言",
