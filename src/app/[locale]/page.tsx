@@ -6,6 +6,7 @@ import { useState } from "react";
 import Modal from "../Components/Modal";
 import { useRouter, useParams } from "next/navigation";
 import { Waitlist } from "../Components/Waitlist";
+import Alert from "../Components/Alert";
 // import Card from "../Components/Card";
 
 export default function Home() {
@@ -46,6 +47,7 @@ export default function Home() {
             height={26}
           ></Image>
         </a>
+        {/* <Alert content="hello" date="" to=""></Alert> */}
         {/* <Card></Card> */}
         <a className="cursor-default pt-[32px] text-[16px] font-normal text-[#1E1E1D]">
           <span className="font-semibold">{t("title")}</span>
