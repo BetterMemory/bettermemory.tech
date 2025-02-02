@@ -44,7 +44,7 @@ export function Waitlist() {
           placeholder={t("InputText")}
           value={email} // 将输入框的值绑定到状态
           onChange={(e) => setEmail(e.target.value)} // 更新状态
-          className="mr-[6px] border focus:outline-none focus:border-2 pl-2 border-black shadow-[inset_2px_2px_0px_#E0DFDB] h-[36px] w-full"
+          className="mr-[6px] select-none border focus:outline-none focus:border-2 pl-2 border-black shadow-[inset_2px_2px_0px_#E0DFDB] h-[36px] w-full"
         ></input>
         <Button
           onClick={handleSubscribe}
