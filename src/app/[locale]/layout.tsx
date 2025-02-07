@@ -12,7 +12,7 @@ const jetBrainsMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "BETTERMEMORY LTD",
+  title: "BETTERMEMORY EdTech",
   description: "Empowering the Next Generation of Learners.",
 };
 
