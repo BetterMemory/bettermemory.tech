@@ -13,7 +13,7 @@ const jetBrainsMono = localFont({
 
 export const metadata: Metadata = {
   title: "BETTERMEMORY EdTech",
-  description: "Empowering the Next Generation of Learners.",
+  description: "",
 };
 
 export default async function LocaleLayout(props: {
